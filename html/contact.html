@@ -4,7 +4,80 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Dope | Contact Us</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../images/favicon.png"
+    />
+    <link rel="stylesheet" href="#" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <a href="../index.html">
+        <img src="../images/logo.png" alt="Dope's logo" />
+      </a>
+      <nav class="navbar">
+        <label for="toggle">&#9776</label>
+        <input type="checkbox" id="toggle"/>
+        <ul class="menu">
+            <li><a href="index.html" class="current">home</a></li>
+            <li><a href="html/explore.html">explore</a></li>
+            <li><a href="html/exhibitions.html">exhibitions</a></li>
+            <li><a href="html/events.html">events</a></li>
+            <li><a href="html/visit.html">visit</a></li>
+            <li><a href="html/get-involved.html">get involved</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+      <h1>Contact Us</h1>
+
+      <div id="message"></div>
+
+      <form class="form" id="contactForm">
+        <div>
+          <label>
+            Name (required)
+            <input name="name" id="name" />
+          </label>
+          <div class="form-error" id="nameError">Please enter your name</div>
+        </div>
+
+        <div>
+          <label>
+            Subject (minimum 10 characters)
+            <textarea name="subject" id="subject"></textarea>
+          </label>
+          <div class="form-error" id="subjectError">
+            Your message must be at least 10 characters
+          </div>
+        </div>
+
+        <div>
+          <label>
+            Email (required)
+            <input name="email" id="email" />
+          </label>
+          <div class="form-error" id="emailError">
+            Please enter a valid email address
+          </div>
+        </div>
+
+        <div>
+          <label>
+            Address (minimum 25 characters)
+            <input name="address" id="address" />
+          </label>
+          <div class="form-error" id="addressError">
+            Address must be at least 25 characters
+          </div>
+        </div>
+
+        <button class="btn">Submit</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
 </html>
