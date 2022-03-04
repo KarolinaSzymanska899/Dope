@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&family=Montserrat:wght@300;800;900&display=swap");
+
+:root {
+  --bg-primary: linear-gradient(to right, #f1f0f0 0%, #6d6c6c 100%);
+  --bg-secondary: linear-gradient(15deg, #691f86d0 0%, #3caaaab0 100%);
+  --error: #b00a00;
+}
