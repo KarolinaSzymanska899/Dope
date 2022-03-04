@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+}
+
+.btn {
+  align-self: center;
+  background: var(--bg-primary);
+  border: none;
+  width: 200px;
+  padding: 0.8rem;
+  color: var(--grey-dark);
+  font-family: "Electrolize", sans-serif;
+  font-size: 20px;
+  margin-top: 25px;
+  cursor: pointer;
+  border-radius: 0.2rem;
+}
+
+.container a {
+  color: var(--primary-colour) !important;
+}
+
+.container a.btn-primary {
+  color: white !important;
+}
+
+.message {
+  padding: 1rem;
+  border: 1px solid var(--footer);
+  color: var(--footer);
+}
+
+.success {
+  color: green;
+  border-color: green;
+  background: rgba(0, 255, 0, 0.1);
+}
+
+.error {
+  color: red;
+  border-color: red;
+  background: rgba(255, 0, 0, 0.1);
+}
