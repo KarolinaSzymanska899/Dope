@@ -20,9 +20,10 @@ a {
   color: var(--primary-colour) !important;
 }
 
-.container a.btn-primary {
+/*.container a.btn-primary {
   color: white !important;
 }
+*/
 
 .message {
   padding: 1rem;
