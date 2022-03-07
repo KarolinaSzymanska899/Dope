@@ -1,0 +1,58 @@
+header {
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+}
+
+.hamburger {
+  display: block;
+  font-size: 30px;
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+}
+
+.navbar-nav {
+  display: none;
+}
+
+.navbar-nav.show {
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+}
+
+#toggle {
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-nav {
+    display: flex;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
