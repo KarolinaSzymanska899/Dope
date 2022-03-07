@@ -1,8 +1,16 @@
 * {
+  padding: 0;
+  margin: 0;
+  border: 0;
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -16,7 +24,6 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  width: 100%;
 }
 
 h1,
