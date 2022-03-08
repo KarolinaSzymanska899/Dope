@@ -36,7 +36,10 @@ textarea {
   margin-top: 3px;
 }
 
-h2.success {
-  max-width: 50%;
+div#message {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
+  margin-top: 1.5rem;
 }
