@@ -19,7 +19,6 @@ nav.navbar {
   font-size: 30px;
   color: var(--primary);
   cursor: pointer;
-  margin-top: 0 !important;
 }
 
 #toggle {
