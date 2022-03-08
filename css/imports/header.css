@@ -3,22 +3,6 @@ header {
   /*width: 100%;*/
 }
 
-.logo {
-  width: 100px;
-}
-
-.hamburger {
-  display: block;
-  font-size: 30px;
-  color: var(--primary);
-  cursor: pointer;
-  margin-top: -1rem !important;
-}
-
-#toggle {
-  display: none;
-}
-
 .navbar {
   width: 100%;
   display: flex;
@@ -26,6 +10,31 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
+}
+
+.logo {
+  width: 70px;
+}
+
+div.icons {
+  display: flex;
+}
+
+.fa-solid,
+.hamburger {
+  font-size: 30px;
+  margin: 0 8px;
+}
+
+.hamburger {
+  display: block;
+  color: var(--primary);
+  cursor: pointer;
+  margin-top: -0.5rem !important;
+}
+
+#toggle {
+  display: none;
 }
 
 .navbar-nav {
@@ -62,8 +71,13 @@ header {
   }
 
   .nav-item a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: normal;
     margin: 1rem;
+  }
+
+  a.current {
+    font-weight: 900;
   }
 }
 
