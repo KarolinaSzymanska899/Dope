@@ -35,3 +35,8 @@ textarea {
   color: var(--secondary);
   margin-top: 3px;
 }
+
+h2.success {
+  max-width: 50%;
+  text-align: center;
+}
