@@ -1,5 +1,13 @@
 header {
+  display: flex;
   width: 100%;
+}
+
+nav.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
 }
 
 .logo {
@@ -11,19 +19,11 @@ header {
   font-size: 30px;
   color: var(--primary);
   cursor: pointer;
+  margin-top: 0 !important;
 }
 
 #toggle {
   display: none;
-}
-
-.navbar {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem 2rem;
 }
 
 .navbar-nav {
