@@ -4,12 +4,8 @@
   max-width: 760px;
   margin: 0 auto;
   padding: 2rem;
-  background: var(--bg-secondary);
+  background: white;
   border-radius: 1rem;
-}
-
-input {
-  font-size: 16px;
 }
 
 input,
@@ -36,6 +32,6 @@ textarea {
 .form-error {
   display: none;
   font-size: 0.8rem;
-  color: white;
+  color: var(--secondary);
   margin-top: 3px;
 }

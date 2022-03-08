@@ -1,5 +1,6 @@
 a {
   text-decoration: none;
+  color: var(--secondary);
 }
 
 .btn {
@@ -11,7 +12,6 @@ a {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   font-size: 20px;
-
   border: var(--primary) 2px;
   border-radius: 0.2rem;
   background: var(--primary);
@@ -21,6 +21,7 @@ a {
 .btn:hover {
   background: white;
   color: var(--primary);
+  border: var(--primary) 2px;
 }
 
 .shadow {
