@@ -23,6 +23,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  height: auto;
 }
 
 footer {
