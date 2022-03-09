@@ -7,14 +7,20 @@ h1 {
 }
 
 div.hero-section,
-div.cards,
-div.big-card {
+div.cards {
   display: flex;
   flex-direction: column;
   width: 90%;
   height: auto;
   margin-top: 3rem;
-  border: black 1px solid;
+}
+
+a.a-big-card {
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin-top: 3rem;
+  border: #eef2f5 1px solid;
 }
 
 div.hero-section,
@@ -22,16 +28,22 @@ div.card {
   align-items: center;
 }
 
-iframe.video {
-  width: 100%;
-  height: 250px;
-}
-
 div.card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 1.5rem 0;
+}
+
+div.big-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+iframe.video {
+  width: 100%;
+  height: 250px;
 }
 
 img.img-jacket {
@@ -46,8 +58,14 @@ div.big-card-text {
   margin-bottom: 1rem;
 }
 
-div.btn-big-card {
-  align-self: center;
+.thinner-p {
+  font-weight: 700;
+  color: var(--primary);
+}
+
+.thicker-p {
+  font-weight: 900;
+  color: var(--primary);
 }
 
 @media only screen and (min-width: 600px) {
@@ -60,6 +78,19 @@ div.btn-big-card {
   div.cards,
   div.big-card {
     flex-direction: row;
+  }
+
+  div.cards {
+    justify-content: space-between;
+  }
+
+  a.one-margin {
+    margin-left: 1rem;
+  }
+
+  a.two-margins {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   img.img-big-card,
