@@ -1,3 +1,7 @@
+main {
+  align-items: center;
+}
+
 h1 {
   display: none;
 }
@@ -7,15 +11,19 @@ div.cards,
 div.big-card {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 100%;
+  width: 90%;
   height: auto;
   margin-top: 3rem;
+  border: black 1px solid;
+}
+
+div.hero-section,
+div.card {
+  align-items: center;
 }
 
 iframe.video {
-  width: 90%;
+  width: 100%;
   height: 250px;
 }
 
@@ -23,26 +31,28 @@ div.card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
   margin: 1.5rem 0;
 }
 
 img.img-jacket {
-  width: 90%;
+  width: 100%;
 }
 
 div.big-card-text {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
   margin-bottom: 1rem;
 }
 
+div.btn-big-card {
+  align-self: center;
+}
+
 @media only screen and (min-width: 600px) {
   iframe.video {
-    width: 50%;
-    height: 400px;
+    height: 500px;
   }
 }
 
@@ -52,9 +62,10 @@ div.big-card-text {
     flex-direction: row;
   }
 
-  /*iframe.video {
+  img.img-big-card,
+  div.big-card-text {
     width: 50%;
-  }*/
+  }
 }
 
 @media only screen and (min-width: 992px) {
