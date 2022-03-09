@@ -1,0 +1,17 @@
+h1 {
+  display: none;
+}
+
+iframe {
+  width: 420px;
+  height: 315px;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
+}
