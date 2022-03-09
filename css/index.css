@@ -2,15 +2,59 @@ h1 {
   display: none;
 }
 
-iframe {
-  width: 300px;
+div.hero-section,
+div.cards,
+div.big-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  margin-top: 3rem;
+}
+
+iframe.video {
+  width: 90%;
+  height: 250px;
+}
+
+div.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem 0;
 }
 
 img.img-jacket {
-  height: 100px;
+  width: 90%;
+}
+
+div.big-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 600px) {
+  iframe.video {
+    width: 50%;
+    height: 400px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
+  div.cards,
+  div.big-card {
+    flex-direction: row;
+  }
+
+  /*iframe.video {
+    width: 50%;
+  }*/
 }
 
 @media only screen and (min-width: 992px) {

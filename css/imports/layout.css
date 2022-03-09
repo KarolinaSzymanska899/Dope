@@ -9,7 +9,6 @@ html {
 }
 
 body {
-  width: 100vw;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,12 +22,15 @@ body {
 main {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   height: auto;
+  /*width: 100%;*/
 }
 
 footer {
   display: flex;
   justify-content: center;
+  margin-top: 3rem;
 }
 
 h1,
