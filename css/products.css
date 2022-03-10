@@ -1,7 +1,55 @@
+main {
+  align-items: center;
+}
+
+div.products-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: auto;
+  align-items: center;
+}
+
+div.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+img.product-img {
+  width: 100%;
+}
+
+div.product-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 i.heart {
   color: #eef2f3;
 }
 
 i.heart:hover {
   color: var(--secondary);
+}
+
+p.name,
+p.price {
+  font-size: 14px;
+}
+
+p.price {
+  font-weight: 700;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+}
+
+@media only screen and (min-width: 1200px) {
 }
