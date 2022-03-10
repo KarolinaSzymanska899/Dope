@@ -84,13 +84,13 @@ div.big-card-text {
     justify-content: space-between;
   }
 
-  a.one-margin {
-    margin-left: 1rem;
+  a.one-padding {
+    padding-left: 1rem;
   }
 
-  a.two-margins {
-    margin-left: 1rem;
-    margin-right: 1rem;
+  a.two-paddings {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   img.img-big-card,
