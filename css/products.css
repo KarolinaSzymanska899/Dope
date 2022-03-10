@@ -86,8 +86,7 @@ p.price {
 
   a.a-product-card {
     width: 25%;
-    /*margin-left: 0.1px;
-    margin-right: 0.1px;*/
+    padding: 0 5px;
   }
 
   div.product-card {
