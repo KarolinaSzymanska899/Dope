@@ -1,0 +1,7 @@
+i.heart {
+  color: #eef2f3;
+}
+
+i.heart:hover {
+  color: var(--secondary);
+}
