@@ -5,6 +5,7 @@ const jackets = [
     price: "112 €",
     description:
       "Dope's very own signature style which stays in the range to reign supreme over all other anoraks. We gave it waterproofing and breathability to tackle everything the mountain has on offer, and lots of slick little details like our contrast drawstrings and triple pocket system. Which makes it one serious street-style inspired anorak that’s ready to slash everything from the park to the pow, and look awesome doing it.",
+    image: "../images/products/E6145_01_7CmeNwj.avif",
   },
   {
     id: "1",
@@ -12,6 +13,7 @@ const jackets = [
     price: "125 €",
     description:
       "Dope's very own signature style which stays in the range to reign supreme over all other anoraks. We gave it waterproofing and breathability to tackle everything the mountain has on offer, and lots of slick little details like our contrast drawstrings and triple pocket system. Which makes it one serious street-style inspired anorak that’s ready to slash everything from the park to the pow, and look awesome doing it.",
+    image: "../images/products/E6208_01_88ZPuJr.avif",
   },
   {
     id: "2",
@@ -19,6 +21,7 @@ const jackets = [
     price: "158 €",
     description:
       "Dope's very own signature style which stays in the range to reign supreme over all other anoraks. We gave it waterproofing and breathability to tackle everything the mountain has on offer, and lots of slick little details like our contrast drawstrings and triple pocket system. Which makes it one serious street-style inspired anorak that’s ready to slash everything from the park to the pow, and look awesome doing it.",
+    image: "../images/products/E8180_01_77cmCWY.avif",
   },
   {
     id: "3",
@@ -26,6 +29,7 @@ const jackets = [
     price: "133 €",
     description:
       "Dope's very own signature style which stays in the range to reign supreme over all other anoraks. We gave it waterproofing and breathability to tackle everything the mountain has on offer, and lots of slick little details like our contrast drawstrings and triple pocket system. Which makes it one serious street-style inspired anorak that’s ready to slash everything from the park to the pow, and look awesome doing it.",
+    image: "../images/products/E8181_01_scZYFxX.avif",
   },
 
   {
@@ -34,6 +38,7 @@ const jackets = [
     price: "158 €",
     description:
       "Dope's very own signature style which stays in the range to reign supreme over all other anoraks. We gave it waterproofing and breathability to tackle everything the mountain has on offer, and lots of slick little details like our contrast drawstrings and triple pocket system. Which makes it one serious street-style inspired anorak that’s ready to slash everything from the park to the pow, and look awesome doing it.",
+    image: "../images/products/E8392_01_dSRMGR5.avif",
   },
   {
     id: "5",
@@ -41,6 +46,7 @@ const jackets = [
     price: "160 €",
     description:
       "Dope's very own signature style which stays in the range to reign supreme over all other anoraks. We gave it waterproofing and breathability to tackle everything the mountain has on offer, and lots of slick little details like our contrast drawstrings and triple pocket system. Which makes it one serious street-style inspired anorak that’s ready to slash everything from the park to the pow, and look awesome doing it.",
+    image: "../images/products/E8424_200.avif",
   },
   {
     id: "6",
@@ -48,6 +54,7 @@ const jackets = [
     price: "135 €",
     description:
       "Dope's very own signature style which stays in the range to reign supreme over all other anoraks. We gave it waterproofing and breathability to tackle everything the mountain has on offer, and lots of slick little details like our contrast drawstrings and triple pocket system. Which makes it one serious street-style inspired anorak that’s ready to slash everything from the park to the pow, and look awesome doing it.",
+    image: "../images/products/F0450_01_k5LI2j9.avif",
   },
   {
     id: "7",
@@ -55,6 +62,7 @@ const jackets = [
     price: "140 €",
     description:
       "Dope's very own signature style which stays in the range to reign supreme over all other anoraks. We gave it waterproofing and breathability to tackle everything the mountain has on offer, and lots of slick little details like our contrast drawstrings and triple pocket system. Which makes it one serious street-style inspired anorak that’s ready to slash everything from the park to the pow, and look awesome doing it.",
+    image: "../images/products/F0618_01_l1FWanm.avif",
   },
 
   {
@@ -63,6 +71,7 @@ const jackets = [
     price: "200 €",
     description:
       "Dope's very own signature style which stays in the range to reign supreme over all other anoraks. We gave it waterproofing and breathability to tackle everything the mountain has on offer, and lots of slick little details like our contrast drawstrings and triple pocket system. Which makes it one serious street-style inspired anorak that’s ready to slash everything from the park to the pow, and look awesome doing it.",
+    image: "../images/products/F0645_01_TpgLizB.avif",
   },
   {
     id: "9",
@@ -70,6 +79,7 @@ const jackets = [
     price: "117 €",
     description:
       "Dope's very own signature style which stays in the range to reign supreme over all other anoraks. We gave it waterproofing and breathability to tackle everything the mountain has on offer, and lots of slick little details like our contrast drawstrings and triple pocket system. Which makes it one serious street-style inspired anorak that’s ready to slash everything from the park to the pow, and look awesome doing it.",
+    image: "../images/products/F0648_01_rW6emoF.avif",
   },
   {
     id: "10",
@@ -77,6 +87,7 @@ const jackets = [
     price: "92 €",
     description:
       "Dope's very own signature style which stays in the range to reign supreme over all other anoraks. We gave it waterproofing and breathability to tackle everything the mountain has on offer, and lots of slick little details like our contrast drawstrings and triple pocket system. Which makes it one serious street-style inspired anorak that’s ready to slash everything from the park to the pow, and look awesome doing it.",
+    image: "../images/products/F0657_01_KqfF2Dt.avif",
   },
   {
     id: "11",
@@ -84,5 +95,24 @@ const jackets = [
     price: "158 €",
     description:
       "Dope's very own signature style which stays in the range to reign supreme over all other anoraks. We gave it waterproofing and breathability to tackle everything the mountain has on offer, and lots of slick little details like our contrast drawstrings and triple pocket system. Which makes it one serious street-style inspired anorak that’s ready to slash everything from the park to the pow, and look awesome doing it.",
+    image: "../images/products/H0223_01_KtNwDH0.avif",
   },
 ];
+
+const containerDetails = document.querySelector(".container-details");
+
+let html = "";
+
+html += `<div class="container-img">${jackets[i].image}</div>
+<div class="container-text">
+  <h1>${jackets[i].name}</h1>
+  <h2>${jackets[i].price}</h2>
+  <div>
+    <p><i class="fa-solid fa-circle-check"></i> Delivery time 3-4 business days</p>
+    <p><i class="fa-solid fa-circle-check"></i> Free shipping and free returns</p>
+    <p><i class="fa-solid fa-circle-check"></i> 30 days right of return</p>
+  </div>
+  <div class="btn shadow">Add to cart</div>
+</div>`;
+
+containerDetails.innerHTML = html;
