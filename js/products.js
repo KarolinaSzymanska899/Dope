@@ -104,7 +104,7 @@ console.log(productsContainer);
 
 let html = "";
 
-jackets.forEach((jacket) => {
+jackets.forEach((jackets) => {
   html += `<a class="a-product-card" href="/html/details.html?id=${jackets.id}">
             <div class="product-card">
               <img class="product-img" src="${jackets.image}"/>
