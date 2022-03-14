@@ -2,7 +2,7 @@ import { jackets } from "./array.js";
 
 const container = document.querySelector(".products-container");
 
-console.log(productsContainer);
+console.log(container);
 
 const showProducts = () => {
   container.innerHTML = "";
