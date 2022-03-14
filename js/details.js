@@ -105,7 +105,7 @@ console.log(containerDetails);
 
 let html = "";
 
-for (let i = 0; i < jackets.length; i++) {
+jackets.forEach((jacket) => {
   html += `<img class="image-jacket" src="${jackets[i].image}" alt="${jackets[i].name}">
 
           <div class="container-text">
@@ -125,6 +125,6 @@ for (let i = 0; i < jackets.length; i++) {
           </div>`;
 
   console.log(html);
-}
+});
 
 containerDetails.innerHTML = html;
