@@ -1,7 +1,6 @@
 import { jackets } from "./array.js";
 
 const container = document.querySelector(".products-container");
-
 console.log(container);
 
 const showProducts = () => {
@@ -24,7 +23,7 @@ showProducts();
 
 /* THIS PART I WISH TO BEHOLD FOR MYSELF:
 
-jackets.forEach((jackets) => {
+jackets.forEach((jacket) => {
   html += `<a class="a-product-card" href="/html/details.html?id=${jacket.id}">
             <div class="product-card">
               <img class="product-img" src="${jacket.image}"/>
