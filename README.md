@@ -2,6 +2,6 @@
 
 Interaction Design Course Assignment
 
-A commercial website for a fictional company selling jackets. Their motto is: Push your limits.
+A commercial website for a fictional company selling jackets.
 
-This Interaction Design Course Assignment is made with the use of HTML, CSS and JavaScript.
+The website is made with HTML, CSS and JavaScript.
