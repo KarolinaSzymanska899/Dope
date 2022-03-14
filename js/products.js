@@ -8,12 +8,12 @@ const showProducts = () => {
   container.innerHTML = "";
 
   jackets.forEach((jacket) => {
-    container.innerHTML += `<a class="a-product-card" href="/html/details.html?id=${jackets.id}">
+    container.innerHTML += `<a class="a-product-card" href="/html/details.html?id=${jacket.id}">
     <div class="product-card">
-      <img class="product-img" src="${jackets.image}" alt="${jackets.name}"/>
+      <img class="product-img" src="${jacket.image}" alt="${jacket.name}"/>
       <div class="product-text">
-        <p class="name">${jackets.name} <i class="fa-solid fa-heart heart"></i></p>
-        <p class="price">${jackets.price} €</p>
+        <p class="name">${jacket.name} <i class="fa-solid fa-heart heart"></i></p>
+        <p class="price">${jacket.price} €</p>
       </div>
     </div>
   </a>`;
