@@ -101,18 +101,30 @@ const jackets = [
 
 const containerDetails = document.querySelector(".container-details");
 
+console.log(containerDetails);
+
 let html = "";
 
-html += `<div class="container-img">${jackets[i].image}</div>
-<div class="container-text">
-  <h1>${jackets[i].name}</h1>
-  <h2>${jackets[i].price}</h2>
-  <div>
-    <p><i class="fa-solid fa-circle-check"></i> Delivery time 3-4 business days</p>
-    <p><i class="fa-solid fa-circle-check"></i> Free shipping and free returns</p>
-    <p><i class="fa-solid fa-circle-check"></i> 30 days right of return</p>
-  </div>
-  <div class="btn shadow">Add to cart</div>
-</div>`;
+for (let i = 0; i < jackets.length; i++) {
+  html += `<img class="image-jacket" src="${jackets[i].image}" alt="${jackets[i].name}">
+
+          <div class="container-text">
+            <div class="container-text-small">
+              <h1 class="name">${jackets[i].name}</h1>
+              <h2 class="price">${jackets[i].price}</h2>
+            </div>
+            <div class="container-text-small-2">
+              <p><i class="fa-solid fa-circle-check"></i> Delivery time 3-4 business days</p>
+              <p><i class="fa-solid fa-circle-check"></i> Free shipping and free returns</p>
+              <p><i class="fa-solid fa-circle-check"></i> 30 days right of return</p>
+            </div>
+            <div class="container-buttons">
+              <div class="btn shadow">Cart()</div>
+              <div class="btn shadow secondary">Clear Cart</div>
+            </div>
+          </div>`;
+
+  console.log(html);
+}
 
 containerDetails.innerHTML = html;
