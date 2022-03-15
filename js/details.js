@@ -11,8 +11,9 @@ const id = params.get("id");
 
 const showDetails = () => {
   jackets.forEach((jacket) => {
-    if (jacket.id === id) {
-      html += `<img class="image-jacket" src="${jacket.image}" alt="${jacket.name}">
+    if (jacket.id == id) {
+      html += `<a href="../html/products.html" class="breadcrumb-nav"> << Back to products</a>
+              <img class="image-jacket" src="${jacket.image}" alt="${jacket.name}">
               <div class="container-text">
                 <div class="container-text-small">
                   <h1 class="name">${jacket.name}</h1>
