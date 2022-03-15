@@ -16,7 +16,7 @@ const showDetails = () => {
               <div class="container-text">
                 <div class="container-text-small">
                   <h1 class="name">${jacket.name}</h1>
-                  <h2 class="price">${jacket.price}</h2>
+                  <h2 class="price">${jacket.price} €</h2>
                 </div>
                 <div class="container-text-small-2">
                   <p><i class="fa-solid fa-circle-check"></i> Delivery time 3-4 business days</p>
