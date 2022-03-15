@@ -2,6 +2,11 @@ main {
   align-items: center;
 }
 
+a.breadcrumb-nav {
+  margin: 2rem 0;
+  font-weight: 600;
+}
+
 div.container-details {
   display: flex;
   flex-direction: column;
@@ -12,12 +17,18 @@ div.container-details {
 
 img.image-jacket {
   width: 100%;
+  margin-bottom: 2rem;
 }
 
 div.container-text-small {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1rem;
+}
+
+div.container-text-small-2 {
+  margin-bottom: 1rem;
 }
 
 div.container-buttons {
