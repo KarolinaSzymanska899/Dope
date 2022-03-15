@@ -74,6 +74,10 @@ div.icons {
     margin: 0 1.1rem;
   }
 
+  .nav-item {
+    margin-bottom: 0;
+  }
+
   .nav-item a {
     font-size: 1.2rem;
     font-weight: normal;
