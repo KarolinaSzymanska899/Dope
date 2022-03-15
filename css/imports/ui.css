@@ -26,6 +26,10 @@ a {
   border: var(--primary) 2px;
 }
 
+.secondary {
+  background-color: var(--secondary);
+}
+
 .shadow {
   box-shadow: 12px 17px 13px -6px #787878;
 }
