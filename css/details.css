@@ -29,6 +29,7 @@ div.container-buttons {
 @media only screen and (min-width: 768px) {
   div.container-details {
     flex-direction: row;
+    align-items: flex-start;
   }
 
   img.image-jacket {
@@ -37,6 +38,9 @@ div.container-buttons {
   }
 
   div.container-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
     width: 50%;
     height: 100%;
   }
