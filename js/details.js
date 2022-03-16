@@ -24,42 +24,20 @@ const showDetails = () => {
                   <p><i class="fa-solid fa-circle-check"></i> 30 days right of return</p>
                 </div>
                 <div class="single-button"><a href="#" data-name="${jacket.name}" data-price="${jacket.price}" class="add-to-cart btn shadow">Add to cart</a></div>
-                
-                <!-- UNNECESSARY BUTTONS
-                <div class="container-buttons">
-                  <div class="btn shadow auto-width">Cart ()</div>
-                  <div class="btn shadow secondary auto-width">Clear Cart</div>
-                </div>
-                -->
-
                 <!-- SHOPPING CART -->
-
-                <div class="shopping-cart modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="shopping-cart" aria-hidden="true">
-                  <div class="modal-dialog modal-lg" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="shopping-cart">Cart</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                    <div class="modal-body">
-                  <table class="show-cart table"></table>
-              <div>Total price: $<span class="total-cart"></span></div>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" class="btn btn-primary">Order now</button>
-            </div>
-          </div>
-        </div>
-      </div>
+                <div class="container-cart" tabindex="-1" role="dialog" aria-labelledby="shopping-cart" aria-hidden="true">
+                  <div class="container-row">
+                    <h3 class="modal-title" id="exampleModalLabel">Your Cart</h3>
+                    <div>€<span class="total-cart"></span></div>
+                  </div>
+                  <div class="container-row">
+                    <img src="#" alt="">
+                    <h4 class="cart-jackets-name"></h4>
+                  </div>
+                  <div class="container-row">
+                    <button type="button" class="btn">Go to Checkout</button>
+                  </div>
+                </div>
               </div>`;
     }
   });
