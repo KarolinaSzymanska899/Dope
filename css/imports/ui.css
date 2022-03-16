@@ -26,6 +26,12 @@ a {
   border: var(--primary) 2px;
 }
 
+.auto-width {
+  width: auto;
+  margin: 0 5px;
+  margin-bottom: 10px;
+}
+
 .secondary {
   background-color: var(--secondary);
 }

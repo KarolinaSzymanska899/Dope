@@ -39,6 +39,11 @@ p {
   margin-bottom: 0.3rem;
 }
 
+div.single-button {
+  display: flex;
+  flex-direction: column;
+}
+
 div.container-buttons {
   display: flex;
   flex-direction: column;
@@ -69,14 +74,9 @@ div.container-buttons {
     margin-bottom: 1rem;
   }
 
-  div.single-button {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   div.container-buttons {
     flex-direction: row;
+    justify-content: center;
   }
 }
 
