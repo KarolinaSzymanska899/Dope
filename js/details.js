@@ -33,8 +33,8 @@ const showDetails = () => {
                 -->
 
                 <!-- SHOPPING CART -->
-                
-                <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="shopping-cart" aria-hidden="true">
+
+                <div class="shopping-cart modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="shopping-cart" aria-hidden="true">
                   <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                       <div class="modal-header">
