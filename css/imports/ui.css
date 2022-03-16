@@ -3,6 +3,12 @@ a {
   color: var(--secondary);
 }
 
+button {
+  border: none;
+  background-color: white;
+  color: var(--primary);
+}
+
 .btn {
   align-self: center;
   width: 200px;

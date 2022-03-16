@@ -51,6 +51,11 @@ div.single-button {
   margin-top: 2rem;
 }*/
 
+/* Cart */
+.show-cart li {
+  display: flex;
+}
+
 @media only screen and (min-width: 768px) {
   div.container-details {
     flex-direction: row;
