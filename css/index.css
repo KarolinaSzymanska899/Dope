@@ -68,6 +68,10 @@ div.big-card-text {
   color: var(--primary);
 }
 
+.extra-margin {
+  margin-bottom: 0.3rem;
+}
+
 @media only screen and (min-width: 600px) {
   iframe.video {
     height: 500px;

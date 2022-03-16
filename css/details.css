@@ -28,13 +28,22 @@ div.container-text-small {
 }
 
 div.container-text-small-2 {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+}
+
+i.fa-circle-check {
+  font-size: 15px;
+}
+
+p {
+  margin-bottom: 0.3rem;
 }
 
 div.container-buttons {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -54,6 +63,20 @@ div.container-buttons {
     justify-content: flex-start;
     width: 50%;
     height: 100%;
+  }
+
+  div.container-text-small-2 {
+    margin-bottom: 1rem;
+  }
+
+  div.single-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  div.container-buttons {
+    flex-direction: row;
   }
 }
 
