@@ -26,7 +26,7 @@ a {
   border: var(--primary) 2px;
 }
 
-.auto-width {
+/*.auto-width {
   width: auto;
   margin: 0 5px;
   margin-bottom: 10px;
@@ -34,7 +34,7 @@ a {
 
 .secondary {
   background-color: var(--secondary);
-}
+}*/
 
 .shadow {
   box-shadow: 12px 17px 13px -6px #787878;

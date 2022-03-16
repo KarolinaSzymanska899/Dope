@@ -24,10 +24,12 @@ const showDetails = () => {
                   <p><i class="fa-solid fa-circle-check"></i> 30 days right of return</p>
                 </div>
                 <div class="single-button"><a href="#" data-name="${jacket.name}" data-price="${jacket.price}" class="add-to-cart btn shadow">Add to cart</a></div>
+                <!--
                 <div class="container-buttons">
                   <div class="btn shadow auto-width">Cart ()</div>
                   <div class="btn shadow secondary auto-width">Clear Cart</div>
                 </div>
+                -->
               </div>`;
     }
   });
