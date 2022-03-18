@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dope | Product's Details</title>
+    <title>Dope | Home</title>
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="../images/favicon.png"
+      href="./images/favicon.png"
     />
     <script
       src="https://kit.fontawesome.com/4d674931c7.js"
@@ -31,8 +31,8 @@
         a.appendChild(r);
       })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
     </script>
-    <link rel="stylesheet" href="../css/style.css" />
-    <link rel="stylesheet" href="../css/details.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <header>
@@ -44,9 +44,7 @@
         <div class="icons">
           <i class="fa-solid fa-magnifying-glass"></i>
           <i class="fa-solid fa-heart"></i>
-          <button type="button" data-toggle="modal" data-target="#cart">
-            <i data-count="3" class="fa-solid fa-basket-shopping badge"></i>
-          </button>
+          <i class="fa-solid fa-basket-shopping"></i>
           <label for="toggle" class="hamburger" id="hamburger">☰</label>
         </div>
 
@@ -55,24 +53,17 @@
           <li class="nav-item">
             <a href="../index.html">Home</a>
           </li>
+          <li class="nav-item"><a href="products.html">Products</a></li>
           <li class="nav-item">
-            <a href="products.html">Products</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html">Contact Us</a>
+            <a href="contact.html" class="current">Contact Us</a>
           </li>
           <li class="nav-item"><a href="#">News</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <a href="products.html" class="breadcrumb-nav"> << Back to products</a>
-      <div class="container-details"></div>
-    </main>
+    <main></main>
 
-    <footer>Interaction Design Course Assignment</footer>
     <script src="../js/menu.js"></script>
-    <script src="../js/details.js" type="module"></script>
     <script src="../js/cart.js" type="module"></script>
   </body>
 </html>
