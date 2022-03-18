@@ -14,8 +14,8 @@ jackets.forEach((jacket) => {
                                 <div>€<span class="total-cart"></span></div>
                               </div>
                               <div class="container-row">
-                                <img src="#" alt="">
-                                <h4 class="cart-jackets-name"></h4>
+                                <img src="${jacket.image}" alt="${jacket.name}">
+                                <h4 class="cart-jackets-name">${jacket.name}</h4>
                               </div>
                               <div class="container-row">
                                 <button type="button" class="btn">Go to Checkout</button>
