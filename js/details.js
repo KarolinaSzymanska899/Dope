@@ -25,19 +25,7 @@ const showDetails = () => {
                 </div>
                 <div class="single-button"><a href="#" data-name="${jacket.name}" data-price="${jacket.price}" class="add-to-cart btn shadow">Add to cart</a></div>
                 <!-- SHOPPING CART -->
-                <div class="container-cart" tabindex="-1" role="dialog" aria-labelledby="shopping-cart" aria-hidden="true">
-                  <div class="container-row">
-                    <h3 class="modal-title" id="exampleModalLabel">Your Cart</h3>
-                    <div>€<span class="total-cart"></span></div>
-                  </div>
-                  <div class="container-row">
-                    <img src="#" alt="">
-                    <h4 class="cart-jackets-name"></h4>
-                  </div>
-                  <div class="container-row">
-                    <button type="button" class="btn">Go to Checkout</button>
-                  </div>
-                </div>
+                <div class="container-cart" tabindex="-1" role="dialog" aria-labelledby="shopping-cart" aria-hidden="true"></div>
               </div>`;
     }
   });
