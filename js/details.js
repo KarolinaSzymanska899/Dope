@@ -1,8 +1,5 @@
 import { jackets } from "./array.js";
 import { getExistingJacketsList } from "./components/jacketsFunction.js";
-import { createMenu } from "./menu.js";
-
-createMenu();
 
 const containerDetails = document.querySelector(".container-details");
 console.log(containerDetails);
