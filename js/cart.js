@@ -5,12 +5,16 @@ const jackets = getExistingJacketsList();
 const containerCart = document.querySelector(".container-cart");
 
 const createCart = () => {
-  console.log(jackets);
+  let total = 0;
   if (jackets.length >= 0) {
     jackets.forEach((jacket) => {
+      const price = parseFloat(jacket.price);
+
+      total = total + price;
+
       containerCart.innerHTML += `<div class="container-row">
                                     <h3 class="modal-title" id="exampleModalLabel">Your Cart</h3>
-                                    <div>€<span class="total-cart"></span></div>
+                                    <div>€<span class="total-cart">${total}</span></div>
                                   </div>
                                   <div class="container-row">
                                     <img src="${jacket.image}" alt="${jacket.name}">
