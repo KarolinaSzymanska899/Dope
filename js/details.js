@@ -1,4 +1,4 @@
-import { jackets } from "array.js";
+import { jackets } from "./array.js";
 
 const containerDetails = document.querySelector(".container-details");
 console.log(containerDetails);
