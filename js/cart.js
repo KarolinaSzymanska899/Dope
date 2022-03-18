@@ -5,6 +5,8 @@ const jackets = getExistingJacketsList();
 const containerCart = document.querySelector(".container-cart");
 
 const createCart = () => {
+  containerCart = "";
+
   let total = 0;
   if (jackets.length >= 0) {
     jackets.forEach((jacket) => {
