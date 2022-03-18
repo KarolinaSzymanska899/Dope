@@ -5,9 +5,8 @@ const jackets = getExistingJacketsList();
 const containerCart = document.querySelector(".container-cart");
 
 const createCart = () => {
-  if (jackets.length === 0) {
-    containerCart.innerHTML = "Your cart is empty";
-  } else {
+  console.log(jackets);
+  if (jackets.length >= 0) {
     jackets.forEach((jacket) => {
       containerCart.innerHTML += `<div class="container-row">
                                     <h3 class="modal-title" id="exampleModalLabel">Your Cart</h3>
@@ -21,16 +20,18 @@ const createCart = () => {
                                     <button type="button" class="btn">Go to Checkout</button>
                                   </div>`;
     });
+  } else {
+    containerCart.innerHTML = "Your cart is empty";
   }
 };
 createCart();
 
 // Show cart
-const buttonAddToCart = document.querySelector(".add-to-cart");
+/* const buttonAddToCart = document.querySelector('.add-to-cart');
 
-buttonAddToCart.addEventListener("click", function () {
-  containerCart.style.display = "flex";
-});
+buttonAddToCart.addEventListener('click', function () {
+  containerCart.style.display = 'flex';
+}); */
 
 /*const createCart = () => {
   jackets.forEach((jacket) => {
