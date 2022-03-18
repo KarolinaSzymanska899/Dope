@@ -56,6 +56,10 @@ div.single-button {
   display: flex;
 }
 
+.container-cart {
+  display: none;
+}
+
 @media only screen and (min-width: 768px) {
   div.container-details {
     flex-direction: row;
