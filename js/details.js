@@ -24,7 +24,7 @@ const showDetails = () => {
                   <p><i class="fa-solid fa-circle-check"></i> Free shipping and free returns</p>
                   <p><i class="fa-solid fa-circle-check"></i> 30 days right of return</p>
                 </div>
-                <div class="single-button"><button data-name="${jacket.name}" data-price="${jacket.price}" class="add-to-cart btn shadow">Add to cart</butt></div>
+                <div class="single-button"><button data-name="${jacket.name}" data-price="${jacket.price}" data-image="${jacket.image}" class="add-to-cart btn shadow">Add to cart</butt></div>
                 <!-- SHOPPING CART -->
                 <div class="container-cart" tabindex="-1" role="dialog" aria-labelledby="shopping-cart" aria-hidden="true"></div>
               </div>`;

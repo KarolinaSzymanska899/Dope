@@ -1,5 +1,5 @@
 export const getExistingJacketsList = () => {
-  const jackets = localStorage.getItem("jacketslist");
+  const jackets = localStorage.getItem("cart");
 
   if (!jackets) {
     return [];
