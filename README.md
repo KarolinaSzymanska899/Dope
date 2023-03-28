@@ -36,7 +36,7 @@ The site needs to have every page listed in the site architecture on your chosen
 1. Clone the repo:
 
 ```bash
-git clone git@github.com:KarolinaSzymanska899/Dope.git
+git clone git@github.com:karolinaszymanska/Dope.git
 ```
 
 2. Install the dependencies:
